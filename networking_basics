@@ -1,0 +1,67 @@
+IP address
+An IP address, or Internet Protocol address, is a numerical label assigned to every device connected to a computer network that uses the Internet Protocol for communication. It serves two main functions: identifying the host or network interface, and providing the location of the host in the network.
+
+IP addresses are typically represented in a format consisting of four numbers separated by dots, such as "192.168.1.1". Each number represents a value between 0 and 255, and the combination of these four numbers creates a unique address for each device on the network.
+
+There are two types of IP addresses: IPv4 and IPv6. IPv4 is the older and more commonly used protocol, while IPv6 is a newer protocol designed to accommodate the growing number of devices connected to the Internet.
+
+IP addresses are important for enabling communication between devices on a network, as well as facilitating the routing of data packets between networks.
+
+
+
+
+MAC address
+A MAC address, or Media Access Control address, is a unique identifier assigned to the network interface controller (NIC) of a device, such as a computer or smartphone. It is a hardware address that is hardcoded into the device's NIC during manufacturing and cannot be changed.
+
+The MAC address is used to identify the device on the local network. The MAC address consists of 6 pairs (12 digits) of hexadecimal numbers, separated by colons or dashes, such as "00:1A:2B:3C:4D:5E". The first three pairs of digits represent the manufacturer of the device, while the remaining three pairs represent the unique identifier assigned to the device.
+
+When a device is connected to a network, it uses its MAC address to communicate with other devices on the same network. The MAC address is used in the process of data transmission over the network, and it helps ensure that data is sent to the correct device.
+
+In summary, a MAC address is a unique identifier assigned to the network interface controller of a device to enable data transmission on the local network. It is a hardware address that is hardcoded into the device's NIC during manufacturing and cannot be changed.
+
+
+
+
+
+
+
+switch
+A switch is a networking device that connects devices on a local area network (LAN). It operates at the data link layer (layer 2) of the OSI model and is designed to forward data packets between devices on the same network.
+
+A switch works by examining the destination MAC address of each incoming packet and forwarding it to the appropriate destination device. When a packet arrives at a switch, the switch reads the MAC address of the packet and looks up the destination MAC address in its forwarding table. If the switch finds a matching address, it sends the packet out of the appropriate port to the destination device. If the switch does not find a matching address, it floods the packet out to all of its ports except for the port that the packet was received on.
+
+Switches can be used to create a local area network (LAN) by connecting multiple devices, such as computers, printers, and servers, to a single network. They can also be used to segment a network into smaller, more manageable subnetworks, or VLANs (Virtual LANs). Additionally, switches can be used to improve network performance by reducing network congestion and improving overall network efficiency.
+
+In summary, a switch is a networking device that connects devices on a local area network (LAN), operates at the data link layer (layer 2) of the OSI model, and forwards data packets between devices on the same network based on the destination MAC address.
+
+
+
+router
+A router is a networking device that routes data packets between different networks. It operates at the network layer (layer 3) of the OSI model and is designed to connect multiple networks together and facilitate communication between them.
+
+A router works by examining the destination IP address of each data packet it receives and determining the best path to forward the packet to its destination. It maintains a routing table that contains information about the different networks connected to it and the best path to reach each network. When a packet arrives at the router, it compares the destination IP address of the packet to its routing table and forwards the packet to the appropriate network.
+
+Routers are commonly used in homes, businesses, and the internet infrastructure to connect multiple devices and networks together. They can be used to connect devices within a single building or across multiple buildings, cities or countries. Routers are also used to provide security for a network by blocking unauthorized access and filtering out unwanted traffic.
+
+In summary, a router is a networking device that routes data packets between different networks, operates at the network layer (layer 3) of the OSI model, and connects multiple networks together to facilitate communication between them.
+
+
+
+
+Routing protocols
+Routing protocols are a set of rules and algorithms used by routers to exchange network topology information and determine the best path for data packets to travel between different networks. Routing protocols enable routers to dynamically adapt to changes in network topology, such as the addition or removal of network devices, and to reroute traffic around network failures or congestion.
+
+There are two main types of routing protocols: interior gateway protocols (IGPs) and exterior gateway protocols (EGPs). IGPs are used to route traffic within a single autonomous system (AS), while EGPs are used to route traffic between different autonomous systems, such as different internet service providers.
+
+Some common examples of IGPs include:
+
+Routing Information Protocol (RIP)
+Open Shortest Path First (OSPF)
+Intermediate System to Intermediate System (IS-IS)
+Some common examples of EGPs include:
+
+Border Gateway Protocol (BGP)
+Exterior Gateway Protocol (EGP)
+Each routing protocol has its own advantages and disadvantages, and the choice of routing protocol depends on factors such as network size, topology, and traffic requirements.
+
+In summary, routing protocols are a set of rules and algorithms used by routers to exchange network topology information and determine the best path for data packets to travel between different networks. They enable routers to dynamically adapt to changes in network topology and reroute traffic around network failures or congestion
